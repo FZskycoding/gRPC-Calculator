@@ -1,0 +1,21 @@
+syntax = "proto3";
+package calculator;
+option go_package = "github.com/FZskycoding/gRPC-Calculator/proto;calculatorpb";
+
+message CalculateRequest{
+  double first_number = 1;
+  double second_number = 2;
+  string operation = 3; //加減乘除
+}
+
+message CalculateResponse {
+  double result = 1;
+  bool success = 2;
+  string error_message = 3;
+}
+
+// 計算器服務
+service CalculatorService {
+    rpc Calculate(CalculateRequest) returns (CalculateResponse){}
+}
+

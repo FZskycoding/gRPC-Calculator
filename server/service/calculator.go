@@ -6,7 +6,7 @@ import (
     "fmt"  // 用於格式化字符串
 
     // 2. 導入生成的 proto 包
-    pb "github.com/FZskycoding/gRPC-Calculator/proto"
+    pb "gRPC-Calculator/proto"
 )
 
 // 3. 定義計算器服務器結構體

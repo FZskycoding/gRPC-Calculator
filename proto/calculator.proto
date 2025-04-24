@@ -1,6 +1,6 @@
 syntax = "proto3";
 package calculator;
-option go_package = "github.com/FZskycoding/gRPC-Calculator/proto;calculatorpb";
+option go_package = "gRPC-Calculator/proto;calculatorpb";
 
 message CalculateRequest{
   double first_number = 1;

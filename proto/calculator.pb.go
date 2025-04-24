@@ -156,7 +156,7 @@ const file_proto_calculator_proto_rawDesc = "" +
 	"\asuccess\x18\x02 \x01(\bR\asuccess\x12#\n" +
 	"\rerror_message\x18\x03 \x01(\tR\ferrorMessage2_\n" +
 	"\x11CalculatorService\x12J\n" +
-	"\tCalculate\x12\x1c.calculator.CalculateRequest\x1a\x1d.calculator.CalculateResponse\"\x00B;Z9github.com/FZskycoding/gRPC-Calculator/proto;calculatorpbb\x06proto3"
+	"\tCalculate\x12\x1c.calculator.CalculateRequest\x1a\x1d.calculator.CalculateResponse\"\x00B$Z\"gRPC-Calculator/proto;calculatorpbb\x06proto3"
 
 var (
 	file_proto_calculator_proto_rawDescOnce sync.Once

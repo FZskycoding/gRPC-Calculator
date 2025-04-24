@@ -10,7 +10,7 @@ import (
 		"strings"
     "google.golang.org/grpc"
     "google.golang.org/grpc/credentials/insecure"
-    pb "github.com/FZskycoding/gRPC-Calculator/proto"
+    pb "gRPC-Calculator/proto"
 )
 
 func main() {

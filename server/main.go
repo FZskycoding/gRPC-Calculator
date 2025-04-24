@@ -4,8 +4,8 @@ import (
     "log"  // 用於日誌輸出
     "net"  // 用於網絡監聽
     "google.golang.org/grpc"
-    pb "github.com/FZskycoding/gRPC-Calculator/proto"
-	"github.com/FZskycoding/gRPC-Calculator/server/service"  
+    pb "gRPC-Calculator/proto"
+	"gRPC-Calculator/server/service"  
 
 )
 

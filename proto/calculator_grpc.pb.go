@@ -28,9 +28,6 @@ const (
 //
 // 計算器服務
 type CalculatorServiceClient interface {
-	// 填寫計算方法的定義
-	// 提示：方法名為 Calculate
-	// 格式：rpc 方法名(請求消息) returns (回應消息) {}
 	Calculate(ctx context.Context, in *CalculateRequest, opts ...grpc.CallOption) (*CalculateResponse, error)
 }
 
@@ -58,9 +55,6 @@ func (c *calculatorServiceClient) Calculate(ctx context.Context, in *CalculateRe
 //
 // 計算器服務
 type CalculatorServiceServer interface {
-	// 填寫計算方法的定義
-	// 提示：方法名為 Calculate
-	// 格式：rpc 方法名(請求消息) returns (回應消息) {}
 	Calculate(context.Context, *CalculateRequest) (*CalculateResponse, error)
 	mustEmbedUnimplementedCalculatorServiceServer()
 }
